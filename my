@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Elements in html</title>
+    </head>
+    <body>
+        <h1>Jellyfish</h1>
+        <p>Swimming is one of the few sports that utilizes every major muscle group simultaneously, providing a superior full-body
+        workout that burns up to
+        
+        more calories per hour than running or cycling. It is also one of the oldest human activities, with cave paintings
+        depicting swimming dating back to the Stone Age.
+</p>
+<b>Swimming</b><br>
+<strong>Swimming</strong><br>
+<i>Swimming</i><br>
+<em>Swimming</em><br>
+<small>Swimming</small><br>
+<del>Swimming</del><br>
+<mark>Swimming</mark><br>
+a <sup>6</sup><br>
+a <sub>7</sub>
+    </body>
+</html>
