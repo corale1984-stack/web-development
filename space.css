@@ -1,0 +1,44 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: rgb(120, 120, 194);
+}
+h1 {
+    font-family: fantasy;
+    color: rgb(90, 125, 190);
+}
+a {
+    color: rgb(119, 119, 231);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 183, 255);
+}
+ul>li{
+    font-weight: bolder;
+}
+h1~p{
+    background-color: rgb(154, 247, 247);
+    padding: 30px;
+    border-radius: 700px;
+    border-color: rgb(157, 195, 195);
+
+}
+ul li:hover{
+    color: rgb(166, 65, 255);
+}
+ul li:nth-child(3){
+    background-color: rgb(38, 85, 173);
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+ul li::before{
+    content:"\1F680";
+}
+a::after{
+    content:"\1F680";
+}
+p::first-letter{
+    font-size: 200%;
+}
