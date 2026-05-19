@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Mission Control</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 30px;
+            padding-top: 80px;
+            background: #0b132b;
+            font-family: Verdana, sans-serif;
+            color: white;
+            min-height: 1400px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #6fffe9;
+        }
+
+        h2 {
+            color: #5bc0be;
+            margin-top: 40px;
+        }
+
+        .mission-bar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            left: 0;
+            background: #1c2541;
+            color: #ffffff;
+            text-align: center;
+            padding: 15px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            z-index: 999;
+        }
+
+        .station {
+            width: 260px;
+            padding: 12px;
+            margin: 10px 0;
+            background: #3a506b;
+            border-left: 6px solid #6fffe9;
+            border-radius: 8px;
+        }
+
+        .shifted {
+            position: relative;
+            top: 12px;
+            left: 45px;
+            background: #5bc0be;
+            color: black;
+        }
+
+        .planet-card {
+            position: relative;
+            width: 260px;
+            padding: 25px;
+            background: #1c2541;
+            border: 2px solid #6fffe9;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .status {
+            position: absolute;
+            bottom: -12px;
+            right: -12px;
+            background: #ff006e;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 25px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .tracker {
+            position: sticky;
+            top: 55px;
+            background: #5bc0be;
+            color: black;
+            padding: 12px;
+            margin-top: 30px;
+            font-weight: bold;
+            border-radius: 6px;
+        }
+
+        .report {
+            width: 250px;
+            background: #1c2541;
+            border: 1px solid #6fffe9;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+
+        code {
+            background: #3a506b;
+            color: #6fffe9;
+            padding: 3px 7px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="mission-bar">
+        SPACE ALERT — Mission systems active | Fixed Navigation Bar
+    </div>
+
+    <h1>Space Mission Control Center</h1>
+
+    <p style="text-align:center;">
+        Learn CSS positioning with satellites, mission cards,
+        floating alerts, and sticky control panels.
+    </p>
+
+    <h2>Normal Layout</h2>
+
+    <p>
+        Default positioned elements appear naturally one after another.
+    </p>
+
+    <div class="station">Satellite Alpha - Stable Orbit</div>
+    <div class="station">Rocket Beta - Fuel Ready</div>
+    <div class="station">Drone Gamma - Scanning Sector</div>
+
+    <h2>Relative Movement</h2>
+
+    <p>
+        This spacecraft changes its location slightly using
+        <code>left</code> and <code>top</code>.
+    </p>
+
+    <div class="station">Mars Rover - Standby</div>
+
+    <div class="station shifted">
+        Lunar Shuttle - Position Updated
+    </div>
+
+    <div class="station">Cargo Module - Docked</div>
+
+    <h2>Absolute Position Example</h2>
+
+    <p>
+        The mission badge is attached to the card using absolute positioning.
+    </p>
+
+    <div class="planet-card">
+        Planet Orion<br><br>
+        Exploration completed successfully
+
+        <div class="status">
+            ACTIVE
+        </div>
+    </div>
+
+    <h2>Fixed Navigation</h2>
+
+    <p>
+        The top mission alert always stays visible while scrolling down.
+    </p>
+
+    <h2>Sticky Tracker Panel</h2>
+
+    <p>
+        The tracker section sticks near the top during scrolling.
+    </p>
+
+    <div class="tracker">
+        Mission Activity Feed — Sticky Panel
+    </div>
+
+    <div class="report">Engine Test - Passed</div>
+    <div class="report">Communication Link - Connected</div>
+    <div class="report">Solar Panels - Active</div>
+    <div class="report">Navigation Check - Running</div>
+    <div class="report">Weather Scan - Clear</div>
+    <div class="report">Landing Gear - Ready</div>
+    <div class="report">Oxygen Supply - Stable</div>
+    <div class="report">Deep Space Signal - Detected</div>
+
+    <h2>Position Controls</h2>
+
+    <p>
+        CSS properties like
+        <code>top</code>,
+        <code>right</code>,
+        <code>bottom</code>,
+        and
+        <code>left</code>
+        help place positioned elements anywhere on the page.
+    </p>
+
+</body>
+
+</html>
