@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wild Quest Adventure Zone</title>
+
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 40px;
+            background: #0d1117;
+            color: #f5f5f5;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+
+        .section-line {
+            border-top: 2px solid #ffb703;
+            margin: 35px auto;
+            width: 85%;
+        }
+
+        .main-title {
+            color: #ffd60a;
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .sub-heading {
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+        .mini-text {
+            color: #bbbbbb;
+            font-size: 15px;
+        }
+
+        .info-list {
+            width: fit-content;
+            margin: auto;
+            text-align: left;
+        }
+
+        .info-list dt {
+            color: #ffb703;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        .info-list dd {
+            color: #d6d6d6;
+            margin-left: 20px;
+        }
+
+        .highlight {
+            background: #ff4dd2;
+            color: black;
+            padding: 4px 8px;
+            border-radius: 5px;
+        }
+
+        .command-box {
+            background: #161b22;
+            color: #00ffae;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        .shortcode {
+            color: #ffd60a;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .schedule-box {
+            background: #161b22;
+            color: #8affc1;
+            display: inline-block;
+            padding: 18px;
+            border-radius: 10px;
+            text-align: left;
+        }
+
+        .quote-box {
+            width: 70%;
+            margin: auto;
+            border-left: 5px solid #ffd60a;
+            padding-left: 15px;
+            font-style: italic;
+            color: #d9d9d9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 class="main-title">Welcome to Wild Quest Adventure Zone</h1>
+        <p>
+            Experience exciting rides, hidden treasure hunts,
+            and thrilling park activities while exploring Bootstrap typography.
+        </p>
+    </header>
+
+    <div class="section-line"></div>
+
+    <section>
+        <h2 class="sub-heading">Explorer Rankings</h2>
+
+        <div class="display-4">Starter Camper</div>
+        <div class="display-3">Forest Tracker</div>
+        <div class="display-2">Cliff Adventurer</div>
+        <div class="display-1">Ultimate Survivor</div>
+    </section>
+
+    <div class="section-line"></div>
+
+    <section>
+        <h2 class="sub-heading">Guest Access Cards</h2>
+
+        <h4>Ryan <span class="mini-text">Level: Ultimate Survivor</span></h4>
+        <h4>Emma <span class="mini-text">Level: Cliff Adventurer</span></h4>
+        <h4>Noah <span class="mini-text">Level: Forest Tracker</span></h4>
+    </section>
+
+    <div class="section-line"></div>
+
+    <section>
+        <h2 class="sub-heading">Attraction Guide</h2>
+
+        <dl class="info-list">
+
+            <dt>Thunder Swing</dt>
+            <dd>A giant swing ride that spins visitors high into the sky.</dd>
+
+            <dt>Hidden Temple Run</dt>
+            <dd>An adventure course filled with clues and mystery tasks.</dd>
+
+            <dt>Wave Blaster</dt>
+            <dd>A thrilling water attraction packed with sharp turns.</dd>
+
+        </dl>
+    </section>
+
+    <div class="section-line"></div>
+
+    <section>
+        <h2 class="sub-heading">Safety Announcements</h2>
+
+        <p>All explorers must gather at <span class="highlight">Checkpoint B</span>.</p>
+
+        <p>Emergency teams will remain near
+            <span class="highlight">Waterfall Bay</span>.
+        </p>
+    </section>
+
+    <div class="section-line"></div>
+
+    <section>
+        <h2 class="sub-heading">System Instructions</h2>
+
+        <p>
+            Activate ride:
+            <span class="command-box">
+                launchRide("Thunder Swing")
+            </span>
+        </p>
+
+        <p>
+            Begin mission:
+            <span class="command-box">
+                mission.start("Hidden Temple Run")
+            </span>
+        </p>
+
+        <p>
+            Shutdown attraction:
+            <span class="command-box">
+                closeRide("Wave Blaster")
+            </span>
+        </p>
+    </section>
+
+    <div class="section-line"></div>
+
+    <section>
+        <h2 class="sub-heading">Adventure Abbreviations</h2>
+
+        <p>
+            <abbr class="shortcode"
+                title="Wild Adventure Protection Squad">WAPS</abbr>
+            monitors the park daily.
+        </p>
+
+        <p>
+            <abbr class="shortcode"
+                title="Rapid Water Rescue">RWR</abbr>
+            assists visitors during water emergencies.
+        </p>
+
+        <p>
+            <abbr class="shortcode"
+                title="Young Explorer Group">YEG</abbr>
+            welcomes junior participants.
+        </p>
+    </section>
+
+    <div class="section-line"></div>
+
+    <section>
+        <h2 class="sub-heading">Event Timeline</h2>
+
+        <pre class="schedule-box">
+09:30 AM  -  Main Entrance Opens
+10:30 AM  -  Thunder Swing Ride
+12:00 PM  -  Hidden Temple Run
+01:30 PM  -  Wave Blaster
+03:00 PM  -  Champion Ceremony
+        </pre>
+    </section>
+
+    <div class="section-line"></div>
+
+    <section>
+        <h2 class="sub-heading">Explorer Message</h2>
+
+        <div class="quote-box">
+            <p>"The greatest adventures come from stepping into the unknown."</p>
+            <footer>- Wild Quest Team</footer>
+        </div>
+    </section>
+
+</body>
+
+</html>
