@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Number Generator</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+
+    <h1>Your Random Number: <span id="number-display">?</span></h1>
+    <button onclick="generateNumber()">Roll the Dice</button>
+
+    <script>
+        function generateNumber() {
+            // 1. Calculate the random number
+            let randomNumber = Math.floor(Math.random() * 10) + 1;
+            
+            // 2. Find the HTML element and change its text
+            document.getElementById("number-display").textContent = randomNumber;
+        }
+    </script>
+
+</body>
+</html>
