@@ -1,0 +1,8 @@
+body {
+    font-family: sans-serif;
+    /* Uses only the browser's absolute default clean font */
+    line-height: 1.6;
+    background-color: #f1f5f9;
+    color: #1e293b;
+    padding: 2rem;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="zoo">
+        <div class="zone">Zone 1: <span id="zone1"></span></div>
+        <div class="zone">Zone 2: <span id="zone2"></span></div>
+        <div class="zone">Zone 3: <span id="zone3"></span></div>
+        <div class="zone total">Total Animals: <span id="total_animals"></span></div>
+    </div>
+
+    <button id="open_zoo_btn">Open Zoo</button>
+    <p id="zoo_status"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
