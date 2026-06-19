@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Your flight information</h1>
+    <button onclick="showinformation ()">Philippines flight information</button>
+    <p id="FlighttoPhil"></p>
+    <script>
+        function showinformation (){
+        let flightname="Philippine Airlines";
+        let flightnumber="40H";
+        let seatnumber="C69";
+        let baggage=3;
+        document.getElementById("FlighttoPhil").innerHTML="Hello, Eriece, welcome to your flight, "+ flightname +". Your booking has successfully been approved, your seat number is "+ seatnumber + " and your baggage number is "+ baggage    }
+    </script>
+</body>
+</html>
