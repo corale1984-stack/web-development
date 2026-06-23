@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Your concert information</h1>
+    <button onclick="showinformation ()">Manila concert information</button>
+    <p id="FlighttoPhil"></p>
+    <script>
+        function showinformation (){
+        let flightname="Itchyworms Reunion Tour";
+        let flightnumber="VIP-A";
+        let seatnumber="Row 3 Seat 12";
+        let baggage=2;
+        document.getElementById("FlighttoPhil").innerHTML="Hello, Eriece, welcome to your concert, "+ flightname +". Your booking has successfully been approved, your seat number is "+ seatnumber + " and your ticket quantity is "+ baggage    }
+    </script>
+</body>
+</html>
