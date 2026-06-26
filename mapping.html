@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <P>multiply every element in the array with 19;</P> 
+   <p id="product_value"></p>
+   <script>
+    var numbers=[12,3,15,14];
+    function myfunction(num){
+        return num*19;
+    }
+    var newarray=numbers.map(myfunction)
+    document.getElementById("product_value").innerHTML=newarray;
+   </script>
+</body>
+</html>
