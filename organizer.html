@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<button onclick="ascending()">Least to greatest</button>
+    <button onclick="descending()">Greatest to least</button>
+<body>
+    <p id="organizer"></p>
+    <p id="organizer-join"></p>
+    <p id="organizer-pop"></p>
+    <script>
+        var organizer=['food','clothes','water','essentials']
+        document.getElementById("organizer").innerHTML=organizer[3]
+        document.getElementById("organizer-join").innerHTML=organizer.join("*") 
+        document.getElementById("organizer-pop").innerHTML=organizer.pop()
+        
+        var points = [12, 150, 13, 3, 14, 2014];
+      document.getElementById("organizer").innerHTML = points;
+      function ascending() {
+        points.sort(function (a, b) {
+          return a - b;
+        });
+        document.getElementById("organizer").innerHTML = points;
+      }
+      function descending() {
+        points.sort(function (a, b) {
+          return b - a;
+        });
+        document.getElementById("organizer").innerHTML= points;
+      }
+
+    </script>
+</body>
+</html>
